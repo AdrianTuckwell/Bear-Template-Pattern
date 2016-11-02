@@ -10,15 +10,18 @@ public abstract class Bear {
   }
 
   public void wakeUp(){
-    System.out.println("waking up");
+    System.out.println("---");
+    System.out.println("-> waking up");
   }
 
   public void eat(){
-    System.out.println("eating");
+    System.out.println("---");
+    System.out.println("-> eating");
   }
 
   public void sleep(){
-    System.out.println("Going to sleep");
+    System.out.println("---");
+    System.out.println("-> Going to sleep");
   }
 
   public void roar(){
